@@ -375,6 +375,22 @@ const Account = () => {
               Update
             </Button>
           </div>
+
+          <div className="p-4 flex flex-col md:flex-row md:items-center md:justify-between gap-3 bg-red-900/20">
+            <div>
+              <h3 className="text-xs font-medium text-red-400">Delete account</h3>
+              <p className="text-xs font-abeezee text-cowrie-bone/70">
+                Permanently remove your profile and data
+              </p>
+            </div>
+            <Button
+              onClick={() => router.push("/account/delete")}
+              className="text-xs"
+              variant="danger"
+            >
+              Delete
+            </Button>
+          </div>
         </div>
       </div>
 
