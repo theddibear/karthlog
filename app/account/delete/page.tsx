@@ -33,16 +33,16 @@ const DeleteAccountPage = () => {
   );
   const userInfo = userData?.data;
 
-  useEffect(() => {
-    if (!isAuthenticated) {
-      router.push("/auth");
-      return;
-    }
+//   useEffect(() => {
+//     if (!isAuthenticated) {
+//       router.push("/auth");
+//       return;
+//     }
 
-    if (role === "admin") {
-      router.push("/admin");
-    }
-  }, [isAuthenticated, role, router]);
+//     if (role === "admin") {
+//       router.push("/admin");
+//     }
+//   }, [isAuthenticated, role, router]);
 
   const [confirmation, setConfirmation] = useState("");
   const [reason, setReason] = useState("");
