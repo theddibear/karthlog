@@ -1,5 +1,5 @@
 // For production environment
-export const baseURLProd = "https://wirecartserver.madeinblacc.net/api/v1";
+export const baseURLProd = "https://api.madeinblacc.net/api/v1";
 
 // For development environment
 // export const baseURLDev = "https://wirecartserver.madeinblacc.net/api/v1";
